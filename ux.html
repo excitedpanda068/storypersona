@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="ux.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+    <script src="https://kit.fontawesome.com/f6c7333707.js" crossorigin="anonymous"></script>  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+
+    <div id = "header">
+        <h1>
+            UX RESEARCH
+        </h1>
+
+        <h6 id = "sub-header">
+            To deepen my understanding of users interactions with interfaces I studied how they interact with the charging station in the science library (sci li) at Brown University. 
+            <!-- Including observations of users interacting with the interface, summarized interviews of users, personas created from the observations/interviews, and a storyboard for one of the storyboard.  -->
+           </h6>
+    </div>
+
+    <section id = "content">
+
+        <div class = "section-container">
+
+            <div class="section-header-container">
+                <h5 class="section-header">
+                    Observations and Interviews
+                </h5>
+            </div>
+
+                <img class="mySlides3" src="assets/ob1.png">
+                <img class="mySlides3" src="assets/ob2.png">
+
+            <div id = "slide-button-container">
+                <button class="slide-button2" onclick="plusDivs(+1, 2)"><h4 class="slide-button-text">&#x2190;</h4></button>    
+                <button class="slide-button" onclick="plusDivs(+1, 2)"><h4 class="slide-button-text">&#x2192;</h4></button>    
+            </div>
+
+         
+
+            <div class="section-subtitle-container3">
+                <div class = "subtitle-cont">
+                    <h3 class = "subtitle">
+                        Observations
+                    </h3>
+                </div>
+                <ul>
+                    <li>Very quick interaction with interface - enter pin in as fast as possible and approach with device in hand</li>
+                    <li>When retreiving device almost always correctly enter pin on the first try</li>
+                    <li>Choose the highest open port on the charging station</li>
+                    <li>Do not leave device in charging station for very long</li>
+                    <li>Normally use charging station for phone, but a couple people used it for airpods</li>
+
+                </ul>
+
+            </div>
+
+            <div class="section-subtitle-container3">
+                <div class = "subtitle-cont">
+                    <h3 class = "subtitle">
+                        Interview Questions
+                    </h3>
+                </div>
+                <ul>
+                    <li>Do you write down the pin?</li>
+                <ul>
+                    <li>
+                        Generally do not, it's only four digits, easy to memorize
+                    </li>
+                </ul>
+                <li>How often do you use the charging station?</li>
+                <ul>
+                    <li>
+                       Very rarely, normally bring a charger from dorm
+                    </li>
+                </ul>
+
+                <li>Do you think the charging station needs to lock?</li>
+                <ul>
+                    <li>
+                       Mixed answers, some were adament about locking the charging station, others argued it isn't necessary
+                    </li>
+                </ul>
+
+                <li>Should the charging station be expanded to support laptop charging?</li>
+                <ul>
+                    <li>
+                       This is unnecessary, you need your laptop to do work
+                    </li>
+                </ul>
+
+                <li>Do you know what to do if you forget your pin?</li>
+                <ul>
+                    <li>
+                       Mentioned seeing a help button in the interface, but not sure what the next steps would be
+                    </li>
+                </ul>
+            </ul>
+
+            
+            </div>
+
+        </div>
+
+       
+
+            <div class = "section-container">
+
+                <div class="section-header-container">
+                    <h5 class="section-header">
+                        Personas
+                    </h5>
+                </div>
+    
+                    <img class="mySlides" src="assets/final1.png">
+                    <img class="mySlides" src="assets/final3.png">
+
+                <div id = "slide-button-container">
+                    <button class="slide-button2" onclick="plusDivs(+1, 0)"><h4 class="slide-button-text">&#x2190;</h4></button>    
+                    <button class="slide-button" onclick="plusDivs(+1, 0)"><h4 class="slide-button-text">&#x2192;</h4></button>    
+                </div>
+    
+                <ul class="section-subtitle-container">
+                    <li> Jim is an undergraduate student at Brown University studying computer science, and he has a midterm essay due in 2 hours! In a rush to the sci li to complete his philosophy essay he forgot his phone charger. The charging station does not allow Jim to check his phone while in use. How will he know if his crush Tulip calls him, or the internship he applied for responded?</li>
+                    <li> Students spend countless hours in the Sci-Li and many of these students do not live close enough to quickly run back to their dorm if they forgot something necessary to their study without messing up their workflow.</li>
+                    <li> While most students remember their charging cords there is certainly a subset of students who forget (including myself).</li>
+                </ul>
+
+                <ul class="section-subtitle-container">
+                    <li> Tulip is an undergraduate at Brown University studying Applied Mathematics. Tulip always listens to music while doing homework because it keeps her motivated and her vibes up. </li>
+                    <li> She lives in New Pembroke which is a trek from the sci li. Her airpods just died and she only brought one charger which is currently being used by her phone. Music is a necessity for APMA problem sets. None of her friends have an extra charger so she is going to have to use the charging station in the basement of the sci li. </li>
+                    <li>Nowadays you need to carry around at least three chargers to be able to charge all of the devices you want to use while doing work - ipad, iphone, laptop, airpods, etc… and sometimes you might forget a charger, or it is more convenient to use the charging station.</li>
+                </ul>
+            </div>
+
+
+            <div class = "section-container">
+
+                <div class="section-header-container">
+                    <h5 class="section-header">
+                        Storyboard
+                    </h5>
+                </div>
+    
+                    <img class="mySlides2" src="assets/21.png">
+                    <img class="mySlides2" src="assets/s2.png">
+    
+                <div id = "slide-button-container">
+                    <button class="slide-button2" onclick="plusDivs(+1, 1)"><h4 class="slide-button-text">&#x2190;</h4></button>    
+                    <button class="slide-button" onclick="plusDivs(+1, 1)"><h4 class="slide-button-text">&#x2192;</h4></button>    
+                </div>
+    
+                <!-- <ul class="section-subtitle-container2">
+                    <li> Jim is an undergraduate student at Brown University studying computer science, and he has a midterm essay due in 2 hours! In a rush to the sci li to complete his philosophy essay he forgot his phone charger. The charging station does not allow Jim to check his phone while in use. How will he know if his crush Tulip calls him, or the internship he applied for responded?</li>
+                    <li> Students spend countless hours in the Sci-Li and many of these students do not live close enough to quickly run back to their dorm if they forgot something necessary to their study without messing up their workflow.</li>
+                    <li> While most students remember their charging cords there is certainly a subset of students who forget (including myself).</li>
+                </ul>
+    
+                <ul class="section-subtitle-container2">
+                    <li> Tulip is an undergraduate at Brown University studying Applied Mathematics. Tulip always listens to music while doing homework because it keeps her motivated and her vibes up. </li>
+                    <li> She lives in New Pembroke which is a trek from the sci li. Her airpods just died and she only brought one charger which is currently being used by her phone. Music is a necessity for APMA problem sets. None of her friends have an extra charger so she is going to have to use the charging station in the basement of the sci li. </li>
+                    <li>Nowadays you need to carry around at least three chargers to be able to charge all of the devices you want to use while doing work - ipad, iphone, laptop, airpods, etc… and sometimes you might forget a charger, or it is more convenient to use the charging station.</li>
+                </ul> -->
+            </div>
+    </section>
+
+    
+  </body>
+
+</html>

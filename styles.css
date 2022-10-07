@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+img {
+    width: 35vw;
+}
+
+#header {
+    margin: 5vw 5vw 5vw 10vw;
+    max-width: 40vw;
+}
+
+.header-link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.header-link:hover {
+    color: rgba(64, 91, 135);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+#content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-header-container {
+    display: flex;
+    width: 100%;
+    padding: 1vw;
+
+}
+
+.section-subtitle-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+}
+
+.section-subtitle-container2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+}
+
+.section-subtitle-container3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+}
+
+
+.section-subtitle-container4 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+}
+
+
+li {
+    margin: 10px 0 10px 0;
+}
+
+.section-header {
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+.section-container {
+    background-color: rgba(25, 36, 54, 0.5);
+    flex-direction: column;
+    width: 35vw;
+    border-radius: 2vw;
+    display: flex;
+    margin: 0 2.5vw 5vw 2.5vw;
+    position: relative;
+}
+
+#interface {
+    display: flex;
+}
+
+#observations {
+    display: flex;
+}
+
+#downhere {
+    display: flex;
+}
+
+@media only screen and (max-width: 980px) {
+    .section-container {
+      width: 80vw;
+    }
+    img {
+        width: 80vw;
+    }
+
+    #header {
+        max-width: 100vw;
+    }
+
+  }
+
+.slide-button {
+    display: flex;
+    background: none;
+    border: none;
+    padding: 0 2vw 0 2vw
+
+}
+
+#slide-button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slide-button-text {
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.slide-button2 {
+    display: flex;
+    background: none;
+    border: none;
+    padding: 0 2vw 0 2vw
+}
+
+:hover.slide-button {
+    background-color: gray;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+:hover.slide-button2 {
+    background-color: gray;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+
+.subtitle-cont {
+    width: 100%;
+    padding-left: 2vw;
+
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: white
+}
+
+#sub-header {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+}
